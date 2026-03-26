@@ -1,0 +1,126 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image:url(backglogin.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#login{
+    height:500px;
+    width:400px;
+    border:2px solid black;
+    border-radius:25px;
+    background-color:rgba(255,183,140,0.22);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px gba(0,0,0,0.15);
+   
+    position:relative;
+    top:20px;
+
+}
+h2{
+    font-size:40px;
+    position:relative;
+    left:110px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color:black;
+}
+#p1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    top:30px;
+    left:25px;
+}
+#text {
+    position:relative;
+    left:25px;
+    bottom:10px;
+    border:none;
+    border-bottom:4px solid black;
+    width:300px;
+    background:transparent;
+    outline:none;
+    padding:5px;
+    transition:0.3s;
+} 
+#text:focus~label{
+    transform:translateY(10px) ;
+}
+
+#p2{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    top:10px;
+    left:25px;
+}
+#password {
+    position:relative;
+    left:25px;
+   bottom:35px;
+   border:none;
+    border-bottom:4px solid black;
+    width:300px;
+   background:transparent;
+     outline:none;
+}
+#password:hover{
+    border-top-color:rgba(255,183,140,0.22) ;
+}
+pre {
+    position:relative;
+    left:40px;
+    bottom:65px;
+    font-size:17px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+#rem{
+    height:22px;
+    width:25px;
+    border:1px solid black;
+    border-radius:10px;
+    background-color:rosybrown;
+    position:relative;
+    left:20px;
+    bottom:30px;
+}
+#submit{
+    height:70px;
+    width:350px;
+    position:relative;
+    left:27px;
+    bottom:80px;
+    background-color:black;
+    color:white;
+    font-size:30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-weight:700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:2px solid black;
+    border-radius:15px;
+}
+#unlogo{
+    height:30px;
+    width:30px;
+    position:relative;
+    bottom:2px;
+    left:25px;
+}
+#paslogo{
+    height:30px;
+    width:30px;
+    position:relative;
+   bottom:25px;
+    left:25px;
+}
